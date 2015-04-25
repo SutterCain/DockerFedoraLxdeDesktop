@@ -7,7 +7,7 @@ RUN yum install -y lxde-common
 RUN yum groupinstall -y LibreOffice
 RUN yum install -y open-sans-fonts x11vnc firefox nano gcc make
 
-EXPOSE 5901
+EXPOSE 9501
 ENV DISPLAY=:0
 
 #create x11vnc random password
